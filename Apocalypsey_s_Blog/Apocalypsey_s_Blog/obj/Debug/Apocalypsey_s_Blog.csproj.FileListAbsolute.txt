@@ -1,0 +1,4 @@
+D:\Apocalypsey's Blog\Apocalypsey-s-Blog\Apocalypsey_s_Blog\Apocalypsey_s_Blog\bin\Apocalypsey_s_Blog.dll
+D:\Apocalypsey's Blog\Apocalypsey-s-Blog\Apocalypsey_s_Blog\Apocalypsey_s_Blog\bin\Apocalypsey_s_Blog.pdb
+D:\Apocalypsey's Blog\Apocalypsey-s-Blog\Apocalypsey_s_Blog\Apocalypsey_s_Blog\obj\Debug\Apocalypsey_s_Blog.dll
+D:\Apocalypsey's Blog\Apocalypsey-s-Blog\Apocalypsey_s_Blog\Apocalypsey_s_Blog\obj\Debug\Apocalypsey_s_Blog.pdb
