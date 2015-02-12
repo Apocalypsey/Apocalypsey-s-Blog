@@ -16,5 +16,9 @@ namespace Apocalypsey_s_Blog.Controllers
             return View();
         }
 
+        public ActionResult About() 
+        {
+            return View("~/Views/Home/About.cshtml");
+        }
     }
 }
