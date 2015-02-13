@@ -6562,3 +6562,8 @@ button.close {
     display: none !important;
   }
 }
+#baba
+{
+    position:fixed;
+    margin-bottom:20px;
+}
