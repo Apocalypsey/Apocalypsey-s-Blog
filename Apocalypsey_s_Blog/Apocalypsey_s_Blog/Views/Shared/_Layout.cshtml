@@ -5,11 +5,12 @@
     <link href="@Url.Content("~/Content/Site.css")" rel="stylesheet" type="text/css" />
     <link href="@Url.Content("~/Content/bootstrap.css")" rel="Stylesheet" type="text/css" />
     <link href="@Url.Content("~/Content/bootstrap-theme.css")" rel="Stylesheet" type="text/css" />
-@*    <script src="Content/Scripts/jquery-1.4.4.min.js" type="text/javascript"></script>*@
+    <script src="@Url.Content("~/Scripts/jquery-1.4.4.min.js")" type="text/javascript"></script>
 </head>
 
 <body>
     @RenderBody()
+    <div style="height:100%;position:relative;">
     <header class="navbar navbar-static-top bs-docs-nav" role="banner">
         <div class="container">
             <div class="navbar-header">
@@ -29,12 +30,18 @@
             </nav>
         </div>
     </header>
-    <div class=".col-md-3 .col-md-pull-9">
-        <div class="menu">
-            <img src="@Url.Content("~/Pictures/baba.png")" />
+    <div class="menu">
+        <div class="clock">
+            <div id="clock-show"></div>
+            
+        </div> 
+
+        <div class="baba">
+            <div style="width:200px;height:200px;overflow:hidden;"><img src="@Url.Content("~/Pictures/baba.png")" style="display:block;margin-left: -28px;margin-top: -28px;"/></div>
             <p>如果觉得本博客对您有帮助，不妨打赏一下！</p>
             <p>您的支持是对我最大的肯定!</p>
         </div>
+    </div>
     </div>
 </body>
 </html>
