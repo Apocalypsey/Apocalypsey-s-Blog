@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
+using Apocalypsey_s_Blog.ViewModels;
 
 namespace Apocalypsey_s_Blog.Controllers
 {
@@ -13,7 +14,16 @@ namespace Apocalypsey_s_Blog.Controllers
 
         public ActionResult Index()
         {
-            return View();
+            IndexViewModel model = new IndexViewModel();
+            if (Session["userName"] == "")
+            {
+                model.IsLogIn = false;
+            }
+            else
+            {
+                model.IsLogIn = true;
+            }
+            return View("~/Views/Home/Index.cshtml", model);
         }
 
         public ActionResult About() 
