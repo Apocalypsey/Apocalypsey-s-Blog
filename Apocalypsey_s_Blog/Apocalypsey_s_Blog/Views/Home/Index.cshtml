@@ -4,3 +4,22 @@
 }
 @model Apocalypsey_s_Blog.ViewModels.IndexViewModel
 
+    <div class="menu">
+        <div class="clock">
+            <div id="clock-show"></div>
+            
+        </div> 
+
+        <div class="baba">
+            <div style="width:200px;height:200px;overflow:hidden;"><img src="@Url.Content("~/Pictures/baba.png")" style="display:block;margin-left: -28px;margin-top: -28px;"/></div>
+            <p>如果觉得本博客对您有帮助，不妨打赏一下！</p>
+            <p>您的支持是对我最大的肯定!</p>
+        </div>
+    </div>
+    <div class="x-right">
+        <h3 class="page-header">最新发表</h3>
+        @*@for (int i = 0; i < Model.Article.Count; i++)
+        { 
+            <a href="../">@Model.Article[i].WebTitle</a>
+        }*@
+    </div>

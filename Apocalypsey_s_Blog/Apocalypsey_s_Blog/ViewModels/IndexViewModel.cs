@@ -11,5 +11,6 @@ namespace Apocalypsey_s_Blog.ViewModels
 
         public int ArticleCount { get; set; }
         public int NoteCount { get; set; }
+        public List<ArticleViewModel> Article;
     }
 }

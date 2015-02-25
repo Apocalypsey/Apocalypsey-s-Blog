@@ -16,6 +16,7 @@ namespace Apocalypsey_s_Blog.ViewModels
         //自然排名
         public string Seo { get; set; }
 
-
+        //内容
+        public string AriticleContent { get; set; }
     }
 }
